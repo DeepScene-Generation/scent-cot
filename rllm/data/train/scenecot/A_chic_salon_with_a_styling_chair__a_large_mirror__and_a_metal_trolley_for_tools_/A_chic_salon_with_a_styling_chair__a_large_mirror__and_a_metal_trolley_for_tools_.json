@@ -1,0 +1,401 @@
+[
+    {
+        "new_object_id": "styling_chair_1",
+        "style": "modern",
+        "material": "leather",
+        "functionality": "client seating",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.627,
+            "width": 0.603,
+            "height": 0.778
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 1.08,
+                "x_pos": 0.6,
+                "y_neg": 0.0,
+                "y_pos": 1.5
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.622424991496265,
+            "y": 0.3015,
+            "z": 0.389
+        }
+    },
+    {
+        "new_object_id": "mirror_1",
+        "style": "modern",
+        "material": "glass",
+        "functionality": "visual enhancement",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 1.5,
+            "width": 0.05,
+            "height": 2.0
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "styling_chair_1",
+                    "preposition": "in front",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.668406505437261,
+            "y": 4.975,
+            "z": 1.2081029535697643
+        }
+    },
+    {
+        "new_object_id": "metal_trolley_1",
+        "style": "industrial",
+        "material": "metal",
+        "functionality": "tool storage",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 0.6,
+            "width": 0.4,
+            "height": 1.0
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "styling_chair_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 4.235924991496265,
+            "y": 0.2,
+            "z": 0.5
+        }
+    },
+    {
+        "new_object_id": "styling_station_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "tool organization",
+        "color": "white",
+        "size_in_meters": {
+            "length": 1.08,
+            "width": 0.395,
+            "height": 1.065
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "styling_chair_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.7689249914962653,
+            "y": 0.1975,
+            "z": 0.5325
+        }
+    },
+    {
+        "new_object_id": "light_fixture_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "illumination",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 0.2
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.8722982670686235,
+            "y": 1.6938380867397307,
+            "z": 2.9
+        }
+    },
+    {
+        "new_object_id": "waiting_seat_1",
+        "style": "modern",
+        "material": "fabric",
+        "functionality": "client seating",
+        "color": "gray",
+        "size_in_meters": {
+            "length": 0.7,
+            "width": 0.535,
+            "height": 0.801
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.7,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.3218339429141284,
+            "y": 4.129718648402871,
+            "z": 0.4005
+        }
+    },
+    {
+        "new_object_id": "waiting_seat_2",
+        "style": "modern",
+        "material": "fabric",
+        "functionality": "client seating",
+        "color": "gray",
+        "size_in_meters": {
+            "length": 0.7,
+            "width": 0.535,
+            "height": 0.801
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "waiting_seat_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 4.021833942914128,
+            "y": 4.129718648402871,
+            "z": 0.4005
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

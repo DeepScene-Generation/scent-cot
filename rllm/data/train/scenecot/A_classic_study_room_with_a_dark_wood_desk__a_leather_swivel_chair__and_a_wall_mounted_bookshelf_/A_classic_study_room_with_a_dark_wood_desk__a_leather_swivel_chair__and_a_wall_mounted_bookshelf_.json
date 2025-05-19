@@ -1,0 +1,444 @@
+[
+    {
+        "new_object_id": "desk_1",
+        "style": "classic",
+        "material": "dark wood",
+        "functionality": "workspace",
+        "color": "dark brown",
+        "size_in_meters": {
+            "length": 1.8,
+            "width": 0.9,
+            "height": 0.75
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.7
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 1.7501551370008417,
+            "y": 4.55,
+            "z": 0.375
+        }
+    },
+    {
+        "new_object_id": "chair_1",
+        "style": "classic",
+        "material": "leather",
+        "functionality": "seating",
+        "color": "dark brown",
+        "size_in_meters": {
+            "length": 0.7,
+            "width": 0.7,
+            "height": 1.2
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "in front",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.2005212691551304,
+            "y": 3.7499999999999996,
+            "z": 0.6
+        }
+    },
+    {
+        "new_object_id": "bookshelf_1",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "book storage",
+        "color": "dark brown",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.3,
+            "height": 2.5
+        },
+        "is_on_the_floor": false,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.15,
+            "y": 3.328029565386988,
+            "z": 1.3268899808526236
+        }
+    },
+    {
+        "new_object_id": "desk_lamp_1",
+        "style": "classic",
+        "material": "metal",
+        "functionality": "lighting",
+        "color": "antique brass",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 0.5
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.253,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 1.5657906177410768,
+            "y": 4.4573536611067395,
+            "z": 1.0
+        }
+    },
+    {
+        "new_object_id": "table_lamp_1",
+        "style": "classic",
+        "material": "ceramic",
+        "functionality": "decorative lighting",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.253,
+            "width": 0.23,
+            "height": 0.435
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "desk_lamp_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 1.2892906177410768,
+            "y": 4.458897585976702,
+            "z": 0.9675
+        }
+    },
+    {
+        "new_object_id": "rug_1",
+        "style": "classic",
+        "material": "wool",
+        "functionality": "floor covering",
+        "color": "burgundy",
+        "size_in_meters": {
+            "length": 3.0,
+            "width": 2.0,
+            "height": 0.01
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "chair_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.23069955840319,
+            "y": 3.4051499900259423,
+            "z": 0.005
+        }
+    },
+    {
+        "new_object_id": "artwork_1",
+        "style": "classic",
+        "material": "canvas",
+        "functionality": "decor",
+        "color": "varied",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.05,
+            "height": 1.5
+        },
+        "is_on_the_floor": false,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.975,
+            "y": 2.2070693160598447,
+            "z": 1.0767213758809548
+        }
+    },
+    {
+        "new_object_id": "plant_1",
+        "style": "classic",
+        "material": "ceramic pot",
+        "functionality": "decor",
+        "color": "green",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 1.2
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "in the corner"
+                },
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "in the corner"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 4.75,
+            "y": 0.25,
+            "z": 0.6
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

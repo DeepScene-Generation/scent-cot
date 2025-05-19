@@ -1,0 +1,436 @@
+[
+    {
+        "new_object_id": "glass_ceiling_1",
+        "style": "modern",
+        "material": "glass",
+        "functionality": "natural lighting",
+        "color": "clear",
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.1
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 2.95
+        }
+    },
+    {
+        "new_object_id": "wicker_chair_1",
+        "style": "natural",
+        "material": "wicker",
+        "functionality": "seating",
+        "color": "natural",
+        "size_in_meters": {
+            "length": 0.7,
+            "width": 0.7,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.5,
+                "x_pos": 0.7,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.6025169930856897,
+            "y": 1.7871895552032115,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "wicker_chair_2",
+        "style": "natural",
+        "material": "wicker",
+        "functionality": "seating",
+        "color": "natural",
+        "size_in_meters": {
+            "length": 0.7,
+            "width": 0.7,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "wicker_chair_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 4.30251699308569,
+            "y": 1.7871895552032115,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "floor_pot_1",
+        "style": "natural",
+        "material": "ceramic",
+        "functionality": "holding plants",
+        "color": "terra cotta",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.4,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.8,
+            "y": 0.6696063185370649,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "hanging_basket_1",
+        "style": "natural",
+        "material": "wicker",
+        "functionality": "holding plants",
+        "color": "natural",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 0.3
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.9445137704081583,
+            "y": 2.0032968158163236,
+            "z": 2.85
+        }
+    },
+    {
+        "new_object_id": "tropical_plant_1",
+        "style": "tropical",
+        "material": "foliage",
+        "functionality": "decoration",
+        "color": "green",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.7
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "in the corner"
+                },
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "in the corner"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.35
+        }
+    },
+    {
+        "new_object_id": "tropical_plant_2",
+        "style": "tropical",
+        "material": "foliage",
+        "functionality": "decoration",
+        "color": "green",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "in the corner"
+                },
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "in the corner"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 4.85,
+            "y": 4.85,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "side_table_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "holding items",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.6
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "wicker_chair_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.0025169930856896,
+            "y": 1.8187139913034653,
+            "z": 0.3
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

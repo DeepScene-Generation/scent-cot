@@ -1,0 +1,434 @@
+[
+    {
+        "new_object_id": "pool_table_1",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "playing billiards",
+        "color": "green",
+        "size_in_meters": {
+            "length": 2.7,
+            "width": 1.5,
+            "height": 0.8
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 2.4
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.5246028725889886,
+            "y": 1.388181630951618,
+            "z": 0.4
+        }
+    },
+    {
+        "new_object_id": "cue_stand_1",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "storing cues",
+        "color": "brown",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 1.2
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.121288478126267,
+            "y": 0.25,
+            "z": 0.6
+        }
+    },
+    {
+        "new_object_id": "spectator_bench_1",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "seating",
+        "color": "brown",
+        "size_in_meters": {
+            "length": 1.8,
+            "width": 0.6,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "pool_table_1",
+                    "preposition": "in front",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.6,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 2.04663310514501,
+            "y": 4.7,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "wall_sconce_1",
+        "style": "classic",
+        "material": "metal",
+        "functionality": "lighting",
+        "color": "brass",
+        "size_in_meters": {
+            "length": 0.14,
+            "width": 0.065,
+            "height": 0.151
+        },
+        "is_on_the_floor": false,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.9675,
+            "y": 0.4303772428158673,
+            "z": 2.4599494609594545
+        }
+    },
+    {
+        "new_object_id": "wall_sconce_2",
+        "style": "classic",
+        "material": "metal",
+        "functionality": "lighting",
+        "color": "brass",
+        "size_in_meters": {
+            "length": 0.14,
+            "width": 0.065,
+            "height": 0.151
+        },
+        "is_on_the_floor": false,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.0325,
+            "y": 0.8746778408223257,
+            "z": 0.2095979055478565
+        }
+    },
+    {
+        "new_object_id": "side_table_1",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "holding drinks/snacks",
+        "color": "dark brown",
+        "size_in_meters": {
+            "length": 0.6,
+            "width": 0.6,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "spectator_bench_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.2466331051450097,
+            "y": 4.7,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "wall_clock_1",
+        "style": "classic",
+        "material": "metal",
+        "functionality": "timekeeping",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.1,
+            "height": 0.4
+        },
+        "is_on_the_floor": false,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.95,
+            "y": 0.48606626444996576,
+            "z": 1.6324317880891563
+        }
+    },
+    {
+        "new_object_id": "rug_1",
+        "style": "classic",
+        "material": "wool",
+        "functionality": "adding warmth",
+        "color": "red",
+        "size_in_meters": {
+            "length": 3.0,
+            "width": 2.0,
+            "height": 0.01
+        },
+        "is_on_the_floor": true,
+        "facing": "upwards",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "pool_table_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.453998297726651,
+            "y": 2.934513345076489,
+            "z": 0.005
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

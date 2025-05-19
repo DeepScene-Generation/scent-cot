@@ -1,0 +1,395 @@
+[
+    {
+        "new_object_id": "bench_1",
+        "style": "minimalist",
+        "material": "wood",
+        "functionality": "seating",
+        "color": "light wood",
+        "size_in_meters": {
+            "length": 1.5,
+            "width": 0.5,
+            "height": 0.45
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.3,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.2688794818338576,
+            "y": 0.25,
+            "z": 0.225
+        }
+    },
+    {
+        "new_object_id": "coat_rack_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "storage for coats and accessories",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 1.8
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "bench_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.1688794818338573,
+            "y": 0.15,
+            "z": 0.9
+        }
+    },
+    {
+        "new_object_id": "wall_art_1",
+        "style": "contemporary",
+        "material": "canvas",
+        "functionality": "artistic enhancement",
+        "color": "varied",
+        "size_in_meters": {
+            "length": 1.2,
+            "width": 0.05,
+            "height": 0.6
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "bench_1",
+                    "preposition": "above",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 0.998929190535069,
+            "y": 0.025,
+            "z": 2.309050383460888
+        }
+    },
+    {
+        "new_object_id": "rug_1",
+        "style": "modern",
+        "material": "fabric",
+        "functionality": "defining space",
+        "color": "grey",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 1.5,
+            "height": 0.01
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.4,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.5738948849933054,
+            "y": 2.7769014273922994,
+            "z": 0.005
+        }
+    },
+    {
+        "new_object_id": "table_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "holding personal items",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.6,
+            "width": 0.4,
+            "height": 0.6
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "rug_1",
+                    "preposition": "left of",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.2,
+            "y": 1.990902530019511,
+            "z": 0.3
+        }
+    },
+    {
+        "new_object_id": "light_fixture_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "lighting",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.3
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.3572110249100837,
+            "y": 3.826727264260703,
+            "z": 2.85
+        }
+    },
+    {
+        "new_object_id": "mirror_1",
+        "style": "modern",
+        "material": "glass",
+        "functionality": "visual expansion and aesthetics",
+        "color": "none",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.05,
+            "height": 1.5
+        },
+        "is_on_the_floor": false,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.975,
+            "y": 1.01228817407151,
+            "z": 1.756749376825536
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

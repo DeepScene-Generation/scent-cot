@@ -1,0 +1,429 @@
+[
+    {
+        "new_object_id": "shoe_shelving_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "shoe organization",
+        "color": "white",
+        "size_in_meters": {
+            "length": 4.0,
+            "width": 0.3,
+            "height": 2.5
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.426467010414629,
+            "y": 0.15,
+            "z": 1.25
+        }
+    },
+    {
+        "new_object_id": "island_dresser_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "clothing layout",
+        "color": "gray",
+        "size_in_meters": {
+            "length": 1.357,
+            "width": 0.842,
+            "height": 0.873
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.43,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.4785889016597222,
+            "y": 1.8537026560345526,
+            "z": 0.4365
+        }
+    },
+    {
+        "new_object_id": "full_length_mirror_1",
+        "style": "modern",
+        "material": "glass",
+        "functionality": "outfit checks",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 0.8,
+            "width": 0.05,
+            "height": 2.0
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 2.7519088304636488,
+            "y": 4.975,
+            "z": 1.0
+        }
+    },
+    {
+        "new_object_id": "stool_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "seating",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.386,
+            "width": 0.43,
+            "height": 0.807
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "island_dresser_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.5850889016597223,
+            "y": 1.9163488817328314,
+            "z": 0.4035
+        }
+    },
+    {
+        "new_object_id": "lighting_fixture_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "illumination",
+        "color": "chrome",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.4,
+            "height": 0.2
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 2.99891600586888,
+            "y": 3.6327576461488764,
+            "z": 2.9
+        }
+    },
+    {
+        "new_object_id": "rug_1",
+        "style": "contemporary",
+        "material": "wool",
+        "functionality": "comfort",
+        "color": "beige",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 1.5,
+            "height": 0.02
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "island_dresser_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.421891314733302,
+            "y": 1.4132335394736626,
+            "z": 0.01
+        }
+    },
+    {
+        "new_object_id": "drawer_unit_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "additional storage",
+        "color": "white",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.5,
+            "height": 1.2
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.25,
+            "y": 2.8285060851133648,
+            "z": 0.6
+        }
+    },
+    {
+        "new_object_id": "accessory_tray_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "accessory organization",
+        "color": "gold",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.3,
+            "height": 0.05
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "island_dresser_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.2978636147015883,
+            "y": 2.0520704548491024,
+            "z": 0.898
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

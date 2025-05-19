@@ -1,0 +1,428 @@
+[
+    {
+        "new_object_id": "treadmill_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "running and cardio",
+        "color": "black",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.9,
+            "height": 1.5
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.119,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.83262007919537,
+            "y": 0.45,
+            "z": 0.75
+        }
+    },
+    {
+        "new_object_id": "dumbbell_set_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "strength training",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 1.5,
+            "width": 0.5,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 1.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.25,
+            "y": 2.951754609123717,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "yoga_mat_1",
+        "style": "minimalist",
+        "material": "rubber",
+        "functionality": "yoga and stretching",
+        "color": "blue",
+        "size_in_meters": {
+            "length": 1.8,
+            "width": 0.6,
+            "height": 0.02
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.804622276834919,
+            "y": 4.532165016411437,
+            "z": 0.01
+        }
+    },
+    {
+        "new_object_id": "led_light_fixture_1",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "lighting",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.1
+        },
+        "is_on_the_floor": false,
+        "facing": "downward",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 0.7227897078169261,
+            "y": 3.945503829623727,
+            "z": 2.95
+        }
+    },
+    {
+        "new_object_id": "ceiling_fan_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "ventilation",
+        "color": "white",
+        "size_in_meters": {
+            "length": 1.2,
+            "width": 1.2,
+            "height": 0.3
+        },
+        "is_on_the_floor": false,
+        "facing": "downward",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 4.069263281149026,
+            "y": 1.0316169471966528,
+            "z": 2.85
+        }
+    },
+    {
+        "new_object_id": "mirror_1",
+        "style": "modern",
+        "material": "glass",
+        "functionality": "form checking",
+        "color": "none",
+        "size_in_meters": {
+            "length": 0.741,
+            "width": 0.028,
+            "height": 1.76
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.986,
+            "y": 0.8431096549367363,
+            "z": 0.88
+        }
+    },
+    {
+        "new_object_id": "storage_rack_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "organizing dumbbells",
+        "color": "black",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.5,
+            "height": 1.0
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "dumbbell_set_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.25,
+            "y": 1.701754609123717,
+            "z": 0.5
+        }
+    },
+    {
+        "new_object_id": "water_bottle_holder_1",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "hydration",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.119,
+            "width": 0.131,
+            "height": 0.234
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "treadmill_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.7731200791953703,
+            "y": 0.0655,
+            "z": 0.117
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

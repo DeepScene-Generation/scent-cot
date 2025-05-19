@@ -1,0 +1,402 @@
+[
+    {
+        "new_object_id": "desk_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "computer work",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 1.5,
+            "width": 0.8,
+            "height": 0.75
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.663
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.706057964885756,
+            "y": 4.6,
+            "z": 0.375
+        }
+    },
+    {
+        "new_object_id": "desktop_computer_1",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "computing",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.2,
+            "height": 0.4
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.2,
+                "y_neg": 0.0,
+                "y_pos": 0.56
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.9434219377505038,
+            "y": 4.67203205642712,
+            "z": 0.95
+        }
+    },
+    {
+        "new_object_id": "office_chair_1",
+        "style": "modern",
+        "material": "mesh",
+        "functionality": "seating",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.663,
+            "width": 0.683,
+            "height": 0.986
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "in front",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.9557111425956393,
+            "y": 3.8584999999999994,
+            "z": 0.493
+        }
+    },
+    {
+        "new_object_id": "filing_drawers_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "document storage",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.6,
+            "height": 1.0
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.7,
+            "y": 2.6051707598464398,
+            "z": 0.5
+        }
+    },
+    {
+        "new_object_id": "desk_lamp_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "lighting",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 0.2,
+            "width": 0.2,
+            "height": 0.5
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "desktop_computer_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.5934219377505037,
+            "y": 4.67203205642712,
+            "z": 1.0
+        }
+    },
+    {
+        "new_object_id": "keyboard_1",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "typing",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.502,
+            "width": 0.173,
+            "height": 0.051
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "desktop_computer_1",
+                    "preposition": "in front",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.058,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.9430029820158086,
+            "y": 4.48553205642712,
+            "z": 0.7755
+        }
+    },
+    {
+        "new_object_id": "mouse_1",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "navigation",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.058,
+            "width": 0.112,
+            "height": 0.035
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "desk_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "keyboard_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.6630029820158088,
+            "y": 4.463058331300164,
+            "z": 0.7675
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

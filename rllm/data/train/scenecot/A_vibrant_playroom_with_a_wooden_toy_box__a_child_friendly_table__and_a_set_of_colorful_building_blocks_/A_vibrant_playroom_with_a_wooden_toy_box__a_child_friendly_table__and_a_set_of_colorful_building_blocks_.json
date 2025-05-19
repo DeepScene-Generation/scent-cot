@@ -1,0 +1,460 @@
+[
+    {
+        "new_object_id": "toy_box_1",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "storing toys",
+        "color": "natural wood",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.5,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 4.402448064263235,
+            "y": 0.25,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "child_table_1",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "play activities",
+        "color": "multicolor",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.6,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.5,
+                "y_neg": 0.4,
+                "y_pos": 0.4
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.4281839651791106,
+            "y": 3.130150732523215,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "child_chair_1",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "seating",
+        "color": "red",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.4,
+            "height": 0.6
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "child_table_1",
+                    "preposition": "in front",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.4
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 2.3660147412225285,
+            "y": 3.630150732523215,
+            "z": 0.3
+        }
+    },
+    {
+        "new_object_id": "child_chair_2",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "seating",
+        "color": "blue",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.4,
+            "height": 0.6
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "child_table_1",
+                    "preposition": "behind",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "child_chair_1",
+                    "preposition": "in front",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.2186418575369586,
+            "y": 2.630150732523215,
+            "z": 0.3
+        }
+    },
+    {
+        "new_object_id": "building_blocks_1",
+        "style": "playful",
+        "material": "plastic",
+        "functionality": "creative play",
+        "color": "multicolor",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "child_table_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.1781839651791106,
+            "y": 3.133919563923717,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "rug_1",
+        "style": "playful",
+        "material": "fabric",
+        "functionality": "soft play area",
+        "color": "colorful pattern",
+        "size_in_meters": {
+            "length": 3.667,
+            "width": 2.553,
+            "height": 0.0027
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "child_table_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "child_chair_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "child_chair_2",
+                    "preposition": "under",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "building_blocks_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.400806450366878,
+            "y": 2.196797346086695,
+            "z": 0.00135
+        }
+    },
+    {
+        "new_object_id": "wall_shelf_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "storing toys",
+        "color": "white",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.2,
+            "height": 0.2
+        },
+        "is_on_the_floor": false,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.1,
+            "y": 2.73607082414476,
+            "z": 0.27741505578455267
+        }
+    },
+    {
+        "new_object_id": "wall_stickers_1",
+        "style": "playful",
+        "material": "vinyl",
+        "functionality": "decorative",
+        "color": "multicolor",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.1,
+            "height": 1.0
+        },
+        "is_on_the_floor": false,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.95,
+            "y": 3.9760885980806195,
+            "z": 2.363496811877715
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

@@ -1,0 +1,534 @@
+[
+    {
+        "new_object_id": "kitchen_worktop_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "meal preparation",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.6,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 1.9089562015806285,
+            "y": 4.7,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "kitchen_utensils_1",
+        "style": "rustic",
+        "material": "wood",
+        "functionality": "cooking assistance",
+        "color": "brown",
+        "size_in_meters": {
+            "length": 0.131,
+            "width": 0.127,
+            "height": 0.317
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "kitchen_worktop_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 1.7676472126682095,
+            "y": 4.9365,
+            "z": 1.0585
+        }
+    },
+    {
+        "new_object_id": "kitchen_cabinet_1",
+        "style": "modern",
+        "material": "marble",
+        "functionality": "storage",
+        "color": "white",
+        "size_in_meters": {
+            "length": 1.08,
+            "width": 0.395,
+            "height": 1.065
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.1975,
+            "y": 3.5845832319294395,
+            "z": 0.5325
+        }
+    },
+    {
+        "new_object_id": "dining_table_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "dining",
+        "color": "black",
+        "size_in_meters": {
+            "length": 2.146,
+            "width": 0.9,
+            "height": 0.731
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.5,
+                "x_pos": 0.5,
+                "y_neg": 0.5,
+                "y_pos": 0.5
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.6680301182951904,
+            "y": 2.921706565612518,
+            "z": 0.3655
+        }
+    },
+    {
+        "new_object_id": "dining_chair_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "seating",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 3.9910301182951904,
+            "y": 3.0955731992801323,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "dining_chair_2",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "seating",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 1.3450301182951905,
+            "y": 2.8786205156690126,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "dining_chair_3",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "seating",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "behind",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.55223167576938,
+            "y": 2.221706565612518,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "dining_chair_4",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "seating",
+        "color": "black",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "in front",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 2.936296551311968,
+            "y": 3.6217065656125182,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "potted_plant_1",
+        "style": "minimalist",
+        "material": "ceramic",
+        "functionality": "decor",
+        "color": "green",
+        "size_in_meters": {
+            "length": 0.229,
+            "width": 0.177,
+            "height": 0.224
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "in the corner"
+                },
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "in the corner"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 0.1145,
+            "y": 0.0885,
+            "z": 0.112
+        }
+    },
+    {
+        "new_object_id": "pendant_light_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "lighting",
+        "color": "gold",
+        "size_in_meters": {
+            "length": 0.2,
+            "width": 0.2,
+            "height": 1.0
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "above",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.263489205466751,
+            "y": 3.3679891802080197,
+            "z": 2.5
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

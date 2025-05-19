@@ -1,0 +1,434 @@
+[
+    {
+        "new_object_id": "sink_counter_1",
+        "style": "modern",
+        "material": "ceramic",
+        "functionality": "grooming",
+        "color": "white",
+        "size_in_meters": {
+            "length": 1.2,
+            "width": 0.5,
+            "height": 0.85
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.585,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.7800858453405661,
+            "y": 0.25,
+            "z": 0.425
+        }
+    },
+    {
+        "new_object_id": "wall_mirror_1",
+        "style": "modern",
+        "material": "glass",
+        "functionality": "grooming",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.05,
+            "height": 0.8
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "sink_counter_1",
+                    "preposition": "above",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 0.7410168877901439,
+            "y": 0.025,
+            "z": 1.3015073761739542
+        }
+    },
+    {
+        "new_object_id": "tall_cabinet_1",
+        "style": "minimalist",
+        "material": "wood",
+        "functionality": "storage",
+        "color": "light grey",
+        "size_in_meters": {
+            "length": 0.6,
+            "width": 0.4,
+            "height": 2.0
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.8,
+            "y": 4.030866643085077,
+            "z": 1.0
+        }
+    },
+    {
+        "new_object_id": "ambient_lighting_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "lighting",
+        "color": "chrome",
+        "size_in_meters": {
+            "length": 0.453,
+            "width": 0.367,
+            "height": 0.122
+        },
+        "is_on_the_floor": false,
+        "facing": "",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.719303082299854,
+            "y": 0.8314377194923923,
+            "z": 2.939
+        }
+    },
+    {
+        "new_object_id": "towel_rack_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "holding towels",
+        "color": "chrome",
+        "size_in_meters": {
+            "length": 0.585,
+            "width": 0.128,
+            "height": 0.914
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "sink_counter_1",
+                    "preposition": "left of",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 0.518310167538481,
+            "y": 0.064,
+            "z": 2.2373426168995345
+        }
+    },
+    {
+        "new_object_id": "toilet_1",
+        "style": "modern",
+        "material": "ceramic",
+        "functionality": "hygiene",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.7,
+            "width": 0.5,
+            "height": 0.8
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.25,
+            "y": 4.178049363562341,
+            "z": 0.4
+        }
+    },
+    {
+        "new_object_id": "shower_area_1",
+        "style": "modern",
+        "material": "glass",
+        "functionality": "bathing",
+        "color": "transparent",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 1.0,
+            "height": 2.2
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 1.2
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 3.3809803021449394,
+            "y": 4.5,
+            "z": 1.1
+        }
+    },
+    {
+        "new_object_id": "bath_mat_1",
+        "style": "minimalist",
+        "material": "cotton",
+        "functionality": "comfort",
+        "color": "beige",
+        "size_in_meters": {
+            "length": 1.2,
+            "width": 0.6,
+            "height": 0.01
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "shower_area_1",
+                    "preposition": "in front",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 4.258740934679495,
+            "y": 1.8344168393300608,
+            "z": 0.005
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

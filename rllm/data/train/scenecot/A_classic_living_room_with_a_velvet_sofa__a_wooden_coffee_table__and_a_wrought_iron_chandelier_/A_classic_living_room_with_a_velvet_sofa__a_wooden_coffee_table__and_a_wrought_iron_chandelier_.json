@@ -1,0 +1,503 @@
+[
+    {
+        "new_object_id": "sofa_1",
+        "style": "classic",
+        "material": "velvet",
+        "functionality": "seating",
+        "color": "deep blue",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.9,
+            "height": 0.8
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.5,
+                "x_pos": 0.5,
+                "y_neg": 0.0,
+                "y_pos": 3.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.9829317505741475,
+            "y": 0.45,
+            "z": 0.4
+        }
+    },
+    {
+        "new_object_id": "coffee_table_1",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "central table",
+        "color": "dark brown",
+        "size_in_meters": {
+            "length": 1.2,
+            "width": 0.6,
+            "height": 0.45
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "in front",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.0838030733061563,
+            "y": 1.2,
+            "z": 0.225
+        }
+    },
+    {
+        "new_object_id": "chandelier_1",
+        "style": "classic",
+        "material": "wrought iron",
+        "functionality": "lighting",
+        "color": "black",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 1.0,
+            "height": 0.6
+        },
+        "is_on_the_floor": false,
+        "facing": "downward",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "coffee_table_1",
+                    "preposition": "above",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.921586005753645,
+            "y": 1.3654427647082372,
+            "z": 2.7
+        }
+    },
+    {
+        "new_object_id": "side_table_1",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "holding items",
+        "color": "dark brown",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.6
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.2329317505741475,
+            "y": 0.25,
+            "z": 0.3
+        }
+    },
+    {
+        "new_object_id": "side_table_2",
+        "style": "classic",
+        "material": "wood",
+        "functionality": "holding items",
+        "color": "dark brown",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.6
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 0.7329317505741475,
+            "y": 0.25,
+            "z": 0.3
+        }
+    },
+    {
+        "new_object_id": "rug_1",
+        "style": "classic",
+        "material": "wool",
+        "functionality": "comfort and style",
+        "color": "beige",
+        "size_in_meters": {
+            "length": 3.0,
+            "width": 2.0,
+            "height": 0.02
+        },
+        "is_on_the_floor": true,
+        "facing": "upward",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "coffee_table_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "in front",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.218492318436531,
+            "y": 2.0654072863133957,
+            "z": 0.01
+        }
+    },
+    {
+        "new_object_id": "cushion_1",
+        "style": "classic",
+        "material": "velvet",
+        "functionality": "comfort",
+        "color": "gold",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.15
+        },
+        "is_on_the_floor": false,
+        "facing": "upward",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.6409520418109718,
+            "y": 0.25,
+            "z": 0.875
+        }
+    },
+    {
+        "new_object_id": "artwork_1",
+        "style": "classic",
+        "material": "canvas",
+        "functionality": "decor",
+        "color": "varied",
+        "size_in_meters": {
+            "length": 1.2,
+            "width": 0.1,
+            "height": 0.8
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "above",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.353825770966657,
+            "y": 0.05,
+            "z": 2.2624046902678607
+        }
+    },
+    {
+        "new_object_id": "decorative_bowl_1",
+        "style": "classic",
+        "material": "ceramic",
+        "functionality": "decor",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.084,
+            "width": 0.084,
+            "height": 0.057
+        },
+        "is_on_the_floor": false,
+        "facing": "upward",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "coffee_table_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.5271052032100085,
+            "y": 1.3116228530972431,
+            "z": 0.47850000000000004
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

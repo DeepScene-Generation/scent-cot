@@ -1,0 +1,401 @@
+[
+    {
+        "new_object_id": "washing_machine_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "laundry washing",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.735,
+            "width": 0.741,
+            "height": 1.018
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 1.2,
+                "x_pos": 0.6,
+                "y_neg": 0.0,
+                "y_pos": 0.264
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.9484569902670468,
+            "y": 0.3705,
+            "z": 0.509
+        }
+    },
+    {
+        "new_object_id": "dryer_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "laundry drying",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.6,
+            "width": 0.6,
+            "height": 0.85
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "washing_machine_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.264
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.6159569902670468,
+            "y": 0.3,
+            "z": 0.425
+        }
+    },
+    {
+        "new_object_id": "plastic_basket_1",
+        "style": "minimalist",
+        "material": "plastic",
+        "functionality": "clothes sorting",
+        "color": "blue",
+        "size_in_meters": {
+            "length": 0.264,
+            "width": 0.232,
+            "height": 0.3
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "washing_machine_1",
+                    "preposition": "in front",
+                    "is_adjacent": false
+                },
+                {
+                    "object_id": "dryer_1",
+                    "preposition": "in front",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.8531187047180109,
+            "y": 0.8848359314043398,
+            "z": 0.15
+        }
+    },
+    {
+        "new_object_id": "storage_shelf_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "storing laundry supplies",
+        "color": "silver",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.4,
+            "height": 2.0
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.8,
+            "y": 3.79971644265483,
+            "z": 1.0
+        }
+    },
+    {
+        "new_object_id": "folding_table_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "folding clothes",
+        "color": "white",
+        "size_in_meters": {
+            "length": 1.2,
+            "width": 0.6,
+            "height": 0.75
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "washing_machine_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 0.9809569902670469,
+            "y": 0.3,
+            "z": 0.375
+        }
+    },
+    {
+        "new_object_id": "wall_drying_rack_1",
+        "style": "modern",
+        "material": "metal",
+        "functionality": "air drying clothes",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.8,
+            "width": 0.2,
+            "height": 0.15
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 2.6927528696629923,
+            "y": 4.9,
+            "z": 1.314808910266875
+        }
+    },
+    {
+        "new_object_id": "detergent_dispenser_1",
+        "style": "modern",
+        "material": "plastic",
+        "functionality": "dispensing detergent",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.25,
+            "width": 0.25,
+            "height": 0.4
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "washing_machine_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 1.8207334739927103,
+            "y": 0.2321818852540844,
+            "z": 1.218
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

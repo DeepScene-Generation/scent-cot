@@ -1,0 +1,1 @@
+bash scripts/deepscenegen/deepscenegen_qwen_instruct_7b_12k_grpo_3ep.sh

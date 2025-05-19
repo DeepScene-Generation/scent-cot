@@ -1,0 +1,488 @@
+[
+    {
+        "new_object_id": "tatami_mat_1",
+        "style": "minimalist",
+        "material": "straw",
+        "functionality": "meditation surface",
+        "color": "light beige",
+        "size_in_meters": {
+            "length": 4.5,
+            "width": 4.5,
+            "height": 0.02
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.4158439823857063,
+            "y": 2.724053292344956,
+            "z": 0.01
+        }
+    },
+    {
+        "new_object_id": "wooden_altar_1",
+        "style": "traditional",
+        "material": "wood",
+        "functionality": "spiritual practices",
+        "color": "natural wood",
+        "size_in_meters": {
+            "length": 1.15,
+            "width": 0.398,
+            "height": 2.152
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.453,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 1.0983080720071858,
+            "y": 4.801,
+            "z": 1.076
+        }
+    },
+    {
+        "new_object_id": "bamboo_plant_1",
+        "style": "zen",
+        "material": "ceramic pot",
+        "functionality": "natural decor",
+        "color": "green",
+        "size_in_meters": {
+            "length": 0.229,
+            "width": 0.177,
+            "height": 1.2
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "position": {
+            "x": 4.9115,
+            "y": 4.353643239121786,
+            "z": 0.6
+        }
+    },
+    {
+        "new_object_id": "meditation_cushion_1",
+        "style": "minimalist",
+        "material": "cotton",
+        "functionality": "seating for meditation",
+        "color": "light gray",
+        "size_in_meters": {
+            "length": 0.67,
+            "width": 0.392,
+            "height": 0.282
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "tatami_mat_1",
+                    "preposition": "on",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.67,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 2.475738991567721,
+            "y": 3.4327467482790563,
+            "z": 0.141
+        }
+    },
+    {
+        "new_object_id": "meditation_cushion_2",
+        "style": "minimalist",
+        "material": "cotton",
+        "functionality": "seating for meditation",
+        "color": "light gray",
+        "size_in_meters": {
+            "length": 0.67,
+            "width": 0.392,
+            "height": 0.282
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "tatami_mat_1",
+                    "preposition": "on",
+                    "is_adjacent": false
+                },
+                {
+                    "object_id": "meditation_cushion_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 3.145738991567721,
+            "y": 3.4327467482790563,
+            "z": 0.141
+        }
+    },
+    {
+        "new_object_id": "low_shelf_1",
+        "style": "modern",
+        "material": "wood",
+        "functionality": "storage for meditation items",
+        "color": "light wood",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.3,
+            "height": 0.5
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "west_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "position": {
+            "x": 0.15,
+            "y": 2.3722802716188953,
+            "z": 0.25
+        }
+    },
+    {
+        "new_object_id": "ambient_light_1",
+        "style": "minimalist",
+        "material": "metal",
+        "functionality": "soft lighting",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.453,
+            "width": 0.367,
+            "height": 1.5
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                },
+                {
+                    "layout_element_id": "east_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "wooden_altar_1",
+                    "preposition": "left of",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 4.7735,
+            "y": 4.8165,
+            "z": 0.75
+        }
+    },
+    {
+        "new_object_id": "wall_art_1",
+        "style": "contemporary",
+        "material": "canvas",
+        "functionality": "visual calmness",
+        "color": "blue and white",
+        "size_in_meters": {
+            "length": 0.95,
+            "width": 0.02,
+            "height": 1.4
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "position": {
+            "x": 4.492009646039287,
+            "y": 0.01,
+            "z": 1.972961514381171
+        }
+    },
+    {
+        "new_object_id": "incense_holder_1",
+        "style": "zen",
+        "material": "ceramic",
+        "functionality": "aromatherapy",
+        "color": "white",
+        "size_in_meters": {
+            "length": 0.196,
+            "width": 0.196,
+            "height": 0.328
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "north_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "wooden_altar_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "position": {
+            "x": 1.0179634434433338,
+            "y": 4.902,
+            "z": 2.3160000000000003
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 5.0,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 5.0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.5,
+            "z": 1.5
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 0.0,
+            "height": 3.0
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 2.5,
+            "y": 2.5,
+            "z": 3.0
+        },
+        "size_in_meters": {
+            "length": 5.0,
+            "width": 5.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]
